@@ -1,0 +1,16 @@
+/.idea
+/.vs
+/.vscode
+/.vsconfig
+/Assembly-CSharp-Editor.csproj
+/Assembly-CSharp.csproj
+/Assembly-CSharp.csproj.DotSettings
+/NaughtyAttributes.Core.csproj
+/NaughtyAttributes.Editor.csproj
+/NaughtyAttributes.Test.csproj
+/Logs
+/obj
+/LearnMVC.sln
+/LearnMVC.user
+/Temp
+/Library
