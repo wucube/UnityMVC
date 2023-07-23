@@ -1883,6 +1883,8 @@ GameObject:
   - component: {fileID: -4392048939930882730}
   - component: {fileID: -8095820291373652025}
   - component: {fileID: 2625624845808781362}
+  - component: {fileID: 3570429834229047813}
+  - component: {fileID: -7575070923310456153}
   m_Layer: 5
   m_Name: RolePanel
   m_TagString: Untagged
@@ -2000,9 +2002,42 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5583260216246271586}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71440def027deeb429c520eea2222342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3570429834229047813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5583260216246271586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19055cfcfb4959e47844bd11dbc46618, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  txtLev: {fileID: 5583260216536511041}
+  txtHp: {fileID: 5583260215839701296}
+  txtAtk: {fileID: 5583260215822346989}
+  txtDef: {fileID: 5583260215673016025}
+  txtCrit: {fileID: 5583260216887395164}
+  txtMiss: {fileID: 5583260215448354950}
+  txtLuck: {fileID: 5583260216022871860}
+  btnLevUp: {fileID: 73311571182045304}
+  btnClose: {fileID: 7568852912905617152}
+--- !u!114 &-7575070923310456153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5583260216246271586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0f944611c73f20469abfc8179fadd73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &5583260216322491389
